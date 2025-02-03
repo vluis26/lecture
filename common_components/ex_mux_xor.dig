@@ -111,7 +111,7 @@ with a green checkmark at the top.</string>
           <string>Power</string>
         </entry>
       </elementAttributes>
-      <pos x="900" y="420"/>
+      <pos x="920" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -121,12 +121,12 @@ with a green checkmark at the top.</string>
           <string>GND</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="560"/>
+      <pos x="940" y="560"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="900" y="480"/>
+      <p1 x="920" y="480"/>
       <p2 x="960" y="480"/>
     </wire>
     <wire>
@@ -134,15 +134,15 @@ with a green checkmark at the top.</string>
       <p2 x="1020" y="500"/>
     </wire>
     <wire>
-      <p1 x="900" y="500"/>
+      <p1 x="920" y="500"/>
       <p2 x="960" y="500"/>
     </wire>
     <wire>
-      <p1 x="920" y="520"/>
+      <p1 x="940" y="520"/>
       <p2 x="960" y="520"/>
     </wire>
     <wire>
-      <p1 x="920" y="460"/>
+      <p1 x="940" y="460"/>
       <p2 x="960" y="460"/>
     </wire>
     <wire>
@@ -154,24 +154,24 @@ with a green checkmark at the top.</string>
       <p2 x="980" y="640"/>
     </wire>
     <wire>
-      <p1 x="900" y="420"/>
-      <p2 x="900" y="480"/>
+      <p1 x="920" y="420"/>
+      <p2 x="920" y="480"/>
     </wire>
     <wire>
-      <p1 x="900" y="480"/>
-      <p2 x="900" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="920" y="460"/>
-      <p2 x="920" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="920" y="520"/>
-      <p2 x="920" y="560"/>
+      <p1 x="920" y="480"/>
+      <p2 x="920" y="500"/>
     </wire>
     <wire>
       <p1 x="1020" y="600"/>
       <p2 x="1020" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="460"/>
+      <p2 x="940" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="520"/>
+      <p2 x="940" y="560"/>
     </wire>
   </wires>
   <measurementOrdering/>
