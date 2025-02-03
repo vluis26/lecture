@@ -24,10 +24,10 @@
           <string>Testdata</string>
           <testData>
             <dataString>A B Y
-0 0 0
+0 0 1
 0 1 1
 1 0 1
-1 1 1
+1 1 0
 </dataString>
           </testData>
         </entry>
@@ -88,7 +88,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="560" y="360"/>
+      <pos x="720" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -102,19 +102,19 @@
           <string>Y</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="460"/>
+      <pos x="700" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>Make an OR gate using this 2:4 decoder by adding wire(s).
-Run tests to verify your work.
-Optionally, make other logic gates (e.g., AND, XNOR, etc.).</string>
+          <string>Make a 2-input NAND gate using this 2:4 decoder
+and a 3-input OR gate by adding wire(s).
+Run tests to verify your work.</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="120"/>
+      <pos x="320" y="120"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -131,8 +131,8 @@ Optionally, make other logic gates (e.g., AND, XNOR, etc.).</string>
       <p2 x="520" y="280"/>
     </wire>
     <wire>
-      <p1 x="540" y="440"/>
-      <p2 x="540" y="460"/>
+      <p1 x="700" y="460"/>
+      <p2 x="700" y="480"/>
     </wire>
   </wires>
   <measurementOrdering/>
