@@ -55,19 +55,6 @@
       <pos x="980" y="640"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Create a 2-input XOR gate using a 4:1 MUX.
-You need only add wire(s).
-To check your work, press the triangular button
-with a green checkmark at the top.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="700" y="120"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
