@@ -174,19 +174,74 @@
       <pos x="1040" y="620"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
+      <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>Description</string>
-          <string>Create a 4:1 MUX using only 2:1 MUX.
-To see how a 4:1 MUX works, see mux\_4\_to\_1.dig.
-Some parts of the circuit are given to you.
-You need only add wires from S_2 and S_1.
-To check your work, press the triangular button
-with a green checkmark at the top.</string>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_2</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="120"/>
+      <pos x="920" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="440"/>
     </visualElement>
   </visualElements>
   <wires>

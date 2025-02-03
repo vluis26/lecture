@@ -32,7 +32,7 @@
           </testData>
         </entry>
       </elementAttributes>
-      <pos x="500" y="0"/>
+      <pos x="500" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -104,18 +104,6 @@
       </elementAttributes>
       <pos x="540" y="460"/>
     </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Make an OR gate using this 2:4 decoder by adding wire(s).
-Run tests to verify your work.
-Optionally, make other logic gates (e.g., AND, XNOR, etc.).</string>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="120"/>
-    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -131,8 +119,20 @@ Optionally, make other logic gates (e.g., AND, XNOR, etc.).</string>
       <p2 x="520" y="280"/>
     </wire>
     <wire>
+      <p1 x="560" y="300"/>
+      <p2 x="560" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="300"/>
+      <p2 x="520" y="360"/>
+    </wire>
+    <wire>
       <p1 x="540" y="440"/>
       <p2 x="540" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="300"/>
+      <p2 x="540" y="360"/>
     </wire>
   </wires>
   <measurementOrdering/>
