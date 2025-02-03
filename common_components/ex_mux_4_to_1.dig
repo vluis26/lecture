@@ -178,14 +178,15 @@
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>Create a 4-to-1 MUX using only 2-to-1 MUX.
+          <string>Create a 4:1 MUX using only 2:1 MUX.
+To see how a 4:1 MUX works, see mux\_4\_to\_1.dig.
 Some parts of the circuit are given to you.
 You need only add wires from S_2 and S_1.
 To check your work, press the triangular button
 with a green checkmark at the top.</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="140"/>
+      <pos x="660" y="120"/>
     </visualElement>
   </visualElements>
   <wires>
