@@ -85,20 +85,20 @@ with a green checkmark at the top.</string>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>1,1</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>2</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
         </entry>
       </elementAttributes>
       <pos x="980" y="600"/>
@@ -111,7 +111,7 @@ with a green checkmark at the top.</string>
           <string>Power</string>
         </entry>
       </elementAttributes>
-      <pos x="900" y="420"/>
+      <pos x="920" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -121,7 +121,7 @@ with a green checkmark at the top.</string>
           <string>GND</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="560"/>
+      <pos x="940" y="560"/>
     </visualElement>
   </visualElements>
   <wires>
