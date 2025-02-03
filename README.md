@@ -5,7 +5,7 @@ This repository contains lecture materials for COMP 311 (SP25).
 To do in-class coding exercises, follow these steps (one-time setup):
 
 1. Fork the repo by clicking the fork button at the top right. Toggle off "Copy the `main` branch only". This creates a personal copy of the repo for you, so you can push changes to it.
-2. Clone the new repo. The name should be `<your_github_username>/lecture`.
+2. `git clone` the new repo. The name should be `<your_github_username>/lecture`.
 
 In future lectures, when this repo is updated, you can pull changes from the original repo into your forked repo by doing these steps:
 
